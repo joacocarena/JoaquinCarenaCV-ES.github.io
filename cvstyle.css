@@ -1,0 +1,293 @@
+
+body {
+    font-family: 'Montserrat';
+    background-color: aliceblue;
+}
+
+.gblock1 {
+    display: inline-block;
+    float: left;
+    background-color: black;
+    justify-content: left;
+    height: 100%;
+    width: 40%;
+    margin-left: 5px;
+}
+
+#foto img {
+    width: 98%;
+    height: 1000px;
+    object-fit: contain;
+    max-width: 800px;
+    max-height: 400px;
+    margin-top: -1px;
+    margin-bottom: -5px;
+}
+
+.presentacion {
+    color: lightgray;
+}
+
+#nombre {
+    text-align: center;
+    margin-left: 15px;
+    font-size: 50px;
+    margin-left: -5px;
+    font-weight: 700;
+    color: lightgray;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    color: lightgray;
+}
+
+#division {
+    border: 1.5px solid lightgray;
+}
+
+.titulo-secundario {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#conoceme {
+    margin-top: 25px;
+}
+
+#about-me {
+    margin-left: 20px;
+    width: 90%;
+    font-size: 18px;
+}
+
+#skills {
+    margin-left: 20px;
+    width: 90%;
+    font-size: 18px;
+}
+
+#contacto {
+    margin-left: 20px;
+    width: 90%;
+    font-size: 18px;
+}
+
+#contacto a {
+    color: #fff;
+    margin-right: 50px;
+    justify-content: space-evenly;
+}
+
+#contacto i {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 350px;
+    margin-bottom: 10px;
+}
+
+.gblock2 {
+    display: inline-block;
+    float: right;
+    width: 50%;
+    margin-top: -5px;
+}
+
+.gblock2 button {
+    float: right;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.titulo-derecha {
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.texto-exp {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-bottom: -2px;
+}
+
+.titulos-pag {
+    text-decoration: underline;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.links-pag {
+    text-decoration: underline;
+    color: black;
+    font-size: 24px;
+}
+
+.educacion-title {
+    text-decoration: underline;
+}
+
+.educacion-lista {
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+footer {
+    display: inline-block;
+    float: right;
+    padding-left: 280px;
+    margin-top: 1px;
+    height: 100%;
+    width: 55%;
+    background-color: black;
+    text-align: center;
+}
+
+.fa-brands {
+    margin-left: -250px;
+    margin-right: -50px;
+    margin-top: 12px;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+#division1 {
+    background-color: black;
+    color: black;
+    display: flex;
+    float: right;
+    width: 58%;
+    margin-top: 20px;
+}
+
+#division2 {
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: -8px;
+    color: lightgray;
+    background-color: black;
+    border-width: medium;
+    width: 95%;
+    height: 100%;
+}
+
+.links-repo {
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+}
+
+.links-repo:hover {
+    opacity: 0.8;
+    background-color: black;
+    color: lightgray;
+}
+
+.division {
+    background-color: black;
+    display: flex;
+}
+
+@media screen and (min-width: 250px) and (max-width: 640px) {
+    .gblock1 {
+        height: 100%;
+        width: 100%;
+        margin-top: -25px;
+        margin-right: -95px;
+    }
+    .gblock2 {
+        margin-right: 50px;
+        text-align: center;
+        margin-right: 140px;
+    }
+    footer {
+        width: 100%;
+    }
+    .fa-brands {
+        margin-right: -10px;
+        padding-left: 15px;
+    }
+    #foto img {
+        margin-left: -1px;
+        padding-left: 14px;
+    }
+    #nombre {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .gblock2 {
+        margin-right: 100px;
+    }
+    .links-pag {
+        text-align: center;
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    .titulo-derecha {
+        margin-left: 5px;
+    }
+    .texto-exp {
+        padding-right: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 645px) and (max-width: 900px) {
+    #nombre {
+        font-size: 40px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    #foto img {
+        display: flex;
+        margin: 0 auto;
+    }
+    .gblock1 {
+        height: 1175px;
+    }
+}  
+
+@media screen and (min-width: 901px) and (max-width: 1800px){
+    #nombre {
+        font-size: 45px;
+    }    
+    .title {
+        font-size: 30px;
+    }
+    #foto img {
+        margin: 0 auto;
+        padding-left: 8px;
+    }
+    .gblock1 {
+        height: 100%;
+    }
+    #descrip {
+        padding-top: 8px;
+        margin-bottom: 20px;
+    }
+    .skills {
+        padding-top: 8px;
+        margin-bottom: 20px;
+    }
+    #lista-contacto {
+        padding-top: 8px;
+        margin-bottom: 20px;
+    }
+    li {
+        padding-bottom: 4px;
+    }
+}
